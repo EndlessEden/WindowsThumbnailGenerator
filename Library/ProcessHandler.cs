@@ -8,7 +8,7 @@ namespace Thumbnail_Generator_Library
     public class ProcessHandler
     {
         private static readonly string[] supportedFiles = {
-            "jpg", "jpeg", "png", "mp4", "mov", "wmv", "avi", "mkv"
+            "jpg", "jpeg", "png", "mp4", "mov", "wmv", "avi", "mkv", "flac", "mp3"
         };
 
         private static volatile int progressCount;
